@@ -1,0 +1,113 @@
+/* Genel Sayfa Ayarları */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    overflow: visible;
+  }
+  
+  .App {
+    width: 100%;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+    color: #444;
+  }
+  
+  select, input {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  select:focus, input:focus {
+    border-color: #007bff;
+    outline: none;
+    background-color: #fff;
+  }
+  
+  button {
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  div {
+    margin-top: 10px;
+  }
+  
+  /* Hata ve Tahmin Sonuçları */
+  .error {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .prediction {
+    color: green;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Açıklamalar */
+  .description {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-left: 5px solid #007bff;
+    margin-top: 20px;
+  }
+  
+  .description p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .description strong {
+    color: #333;
+  }
+  
